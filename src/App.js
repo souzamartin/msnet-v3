@@ -5,7 +5,7 @@ import About from "./components/About"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
 import NotFound from "./components/NotFound"
-import './App.css'
+// import './App.css'
 
 function App() {
   return (
