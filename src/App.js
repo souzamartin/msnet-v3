@@ -10,8 +10,8 @@ import NotFound from "./components/NotFound"
 function App() {
   return (
     <>
-      <Nav />
       <BrowserRouter>
+        <Nav />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/about" element={<About />} />
