@@ -1,4 +1,4 @@
-import { NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { AppBar, Toolbar, Stack, Button } from "@mui/material"
 
 function Nav() {

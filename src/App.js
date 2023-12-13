@@ -5,6 +5,7 @@ import About from "./components/About"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
 import NotFound from "./components/NotFound"
+import Footer from "./components/Footer"
 // import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
