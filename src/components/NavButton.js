@@ -3,14 +3,15 @@ import { Button } from "@mui/material"
 
 function NavButton({to, label}) {
     const location = useLocation()
-
+    
     return (
         <Button 
-            component={NavLink} 
+            component={NavLink}
+            color="inherit"
             to={to} 
-            variant="contained"
-            selected={to === location.pathname}
-            >
+            variant={to === location.pathname ? "outlined" : "contained"}
+            disableElevation
+        >
             {label}
         </Button>
     )
