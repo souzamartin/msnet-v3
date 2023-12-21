@@ -3,7 +3,7 @@ import NavButton from "./NavButton"
 
 function Nav() {
     return (
-        <AppBar position="static" color="inherit">
+        <AppBar position="static" elevation={0}>
             <Toolbar sx={{ flexGrow: 0, justifyContent: 'center' }}>
                 <Stack direction="row" spacing={2}>
                     <NavButton to="/" label="Main" />

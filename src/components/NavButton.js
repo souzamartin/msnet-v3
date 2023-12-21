@@ -9,7 +9,7 @@ function NavButton({to, label}) {
             component={NavLink}
             color="inherit"
             to={to} 
-            variant={to === location.pathname ? "outlined" : "contained"}
+            variant={to === location.pathname ? "outlined" : "text"}
             disableElevation
         >
             {label}
