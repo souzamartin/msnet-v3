@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import CssBaseline from "@mui/material/CssBaseline"
 import { ThemeProvider, createTheme } from "@mui/material/styles"
 import { Container, Divider } from "@mui/material"
+import { Image } from "mui-image"
+import banner from "./img/banner.png"
 import Nav from "./components/Nav"
 import Main from "./components/Main"
 import About from "./components/About"
@@ -14,10 +16,10 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#ccccff",
+        main: "#ccccff"
       },
       background: {
-        default: "#ccccff",
+        default: "#ccccff"
       },
       text: {
         primary: "#333333"
@@ -29,6 +31,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container>
+        <Image src={banner} shift="bottom" />
         <BrowserRouter>
           <Nav />
           <Divider />
