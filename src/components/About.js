@@ -2,7 +2,7 @@ import { Container, Typography } from "@mui/material"
 
 function About() {
   return (
-    <Container>
+    <Container sx={{ marginTop: 2 }}>
       <Typography variant="h2">About</Typography>
     </Container>
   )

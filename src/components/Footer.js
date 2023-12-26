@@ -5,7 +5,8 @@ function Footer() {
     
     return (
         <Box 
-            sx={{ position: "fixed", bottom: 0, left: 0, right: 0 }} elevation={3}
+            sx={{ position: "fixed", bottom: 0, left: 0, right: 0, bgcolor: "primary.main" }}
+            elevation={3}
             display="flex"
             justifyContent="center"
             alignItems="center"
