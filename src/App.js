@@ -30,7 +30,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container sx={{ marginBottom: 2 }}>
+      <Container sx={{ paddingBottom: 10 }}>
         <Image src={banner} shift="bottom" />
         <BrowserRouter>
           <Nav />

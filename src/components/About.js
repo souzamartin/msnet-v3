@@ -1,4 +1,6 @@
 import { Container, Typography, Box, Link } from "@mui/material"
+import Image from "mui-image"
+import sword from "../img/sword.png"
 
 function About() {
   return (
@@ -18,8 +20,8 @@ function About() {
       <Typography variant="body">
         I also supplement the pen with the sword. Since 2001, I've practiced kenjutsu, a type of Japanese-style swordplay, which I taught for five years at Reed College. More recently, I began studying Highland broadsword, the fencing technique of Scotland in the 18th century. When the time is right, I look forward to teaching sword arts again.
       </Typography>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
-        <h3>SWORD IMAGES</h3>
+      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
+        <Image src={sword} />
       </Box>
       <Typography variant="body">
         I'm also a Polaroid photographer, and a member of the <Link 
