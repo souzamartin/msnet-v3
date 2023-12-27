@@ -30,11 +30,11 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container>
+      <Container sx={{ marginBottom: 2 }}>
         <Image src={banner} shift="bottom" />
         <BrowserRouter>
           <Nav />
-          <Divider />
+          <Divider sx={{ marginBottom: 2 }} />
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />
