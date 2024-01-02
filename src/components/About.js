@@ -1,6 +1,6 @@
 import { Container, Typography, Box, Link } from "@mui/material"
 import Image from "mui-image"
-import sword from "../img/sword.png"
+import sword from "../img/sword.gif"
 
 function About() {
   return (
