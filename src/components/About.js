@@ -1,6 +1,7 @@
 import { Container, Typography, Box, Link } from "@mui/material"
 import Image from "mui-image"
 import sword from "../img/sword.gif"
+import hobbies from "../img/hobbies.gif"
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
         <br/>
         My interest in words extends to the aesthetics of their form as well. I practice calligraphy, both in my own peculiar English hand, and in Chinese.
       </Typography>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
+      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
         <h3>CALLIGRAPHY IMAGES</h3>
       </Box>
       <Typography variant="body">
@@ -33,8 +34,8 @@ function About() {
             New York City Ghostbusters
         </Link>.
       </Typography>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
-        <h3>HOBBY IMAGES</h3>
+      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
+        <Image src={hobbies} />
       </Box>
     </Container>
   )
