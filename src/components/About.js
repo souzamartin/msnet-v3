@@ -1,5 +1,6 @@
 import { Container, Typography, Box, Link } from "@mui/material"
 import Image from "mui-image"
+import calligraphy from "../img/calligraphy.gif"
 import sword from "../img/sword.gif"
 import hobbies from "../img/hobbies.gif"
 
@@ -16,7 +17,7 @@ function About() {
         My interest in words extends to the aesthetics of their form as well. I practice calligraphy, both in my own peculiar English hand, and in Chinese.
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
-        <h3>CALLIGRAPHY IMAGES</h3>
+        <Image src={calligraphy} />
       </Box>
       <Typography variant="body">
         I also supplement the pen with the sword. Since 2001, I've practiced kenjutsu, a type of Japanese-style swordplay, which I taught for five years at Reed College. More recently, I began studying Highland broadsword, the fencing technique of Scotland in the 18th century. When the time is right, I look forward to teaching sword arts again.
