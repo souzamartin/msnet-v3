@@ -31,8 +31,9 @@ function About() {
           target="_blank"
           rel="noopener"
           variant="inherit" 
-          color="inherit">
-            New York City Ghostbusters
+          color="inherit"
+        >
+          New York City Ghostbusters
         </Link>.
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
