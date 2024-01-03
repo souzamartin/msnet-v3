@@ -40,7 +40,7 @@ const projectData = [
         ]
     },
     {
-        name: "Tootert",
+        name: "Tooter",
         link: null,
         demo: null,
         repo: "https://github.com/souzamartin/Tooter",

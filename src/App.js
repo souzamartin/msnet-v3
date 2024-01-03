@@ -19,7 +19,8 @@ function App() {
         main: "#ccccff"
       },
       background: {
-        default: "#ccccff"
+        default: "#ccccff",
+        paper: "#ccccff"
       },
       text: {
         primary: "#333333"
