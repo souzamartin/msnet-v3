@@ -1,7 +1,10 @@
 const projectData = [
     {
         name: "Wordle Analog",
-        link: "https://maxnmcbride.github.io/wordleanalog/index.html",
+        link: {
+            url: "https://maxnmcbride.github.io/wordleanalog/index.html",
+            label: "GitHub Pages"
+        },
         demo: null,
         repo: "https://github.com/maxnmcbride/wordleanalog",
         desc: "A clone of the popular browser-based word game.",
@@ -18,7 +21,10 @@ const projectData = [
     {
         name: "Ghostbusters Appointment System",
         link: null,
-        demo: "https://youtu.be/6bczenmCvvU",
+        demo: {
+            url: "https://youtu.be/6bczenmCvvU",
+            label: "YouTube"
+        },
         repo: "https://github.com/souzamartin/gb-app-sys",
         desc: "A mock business website for NYC’s famous original paranormal investigators and eliminators.",
         userStories: [
