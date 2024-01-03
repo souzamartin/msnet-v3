@@ -1,11 +1,13 @@
-import { Container, Box, Button, Typography, Card, CardContent } from "@mui/material"
+import { Container, Box, Button, Typography, Stack } from "@mui/material"
 import FileDownloadIcon from "@mui/icons-material/FileDownload"
 import WorkCard from "./WorkCard"
 import martinsouza_resume from "../res/martinsouza_resume.pdf"
 import projectData from "../res/projectData"
 
 function Work() {
-  const renderedProjects = projectData.map(proj => <WorkCard key={proj.name} proj={proj} />)
+  const renderedProjects = projectData.map(proj =>
+      <WorkCard key={proj.name + " Card"} proj={proj} />
+  )
 
   return (
     <Container>
@@ -16,13 +18,20 @@ function Work() {
           startIcon={<FileDownloadIcon />}
           href={martinsouza_resume}
           download
+          sx={{ backgroundColor: "primary.light" }}
         >
           Martin's résumé (PDF)
         </Button>
       </Box>
 
-      <Typography variant="h4">Technical Projects</Typography>
-      {renderedProjects}
+      <Typography variant="h4" sx={{ marginBottom: 1 }}>Technical Projects</Typography>
+      <Stack
+        justifyContent="center"
+        alignItems="center"
+        spacing={2}
+      >
+        {renderedProjects}
+      </Stack>
     </Container>
   )
 }
