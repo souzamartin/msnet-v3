@@ -6,7 +6,7 @@ import projectData from "../res/projectData"
 
 function Work() {
   const renderedProjects = projectData.map(proj =>
-      <WorkCard key={proj.name + " Card"} proj={proj} />
+      <WorkCard key={proj.name} proj={proj} />
   )
 
   return (
