@@ -3,8 +3,6 @@ import { Card, CardContent, Typography, Modal, Box, Link } from "@mui/material"
 
 function WorkCard({proj}) {
     const [open, setOpen] = useState(false)
-    const handleOpen = () => setOpen(true)
-    const handleClose = () => setOpen(false)
 
     const modalStyle = {
         position: 'absolute',
@@ -29,7 +27,7 @@ function WorkCard({proj}) {
                     minWidth: "90%",
                     ':hover': {boxShadow: 5}
                 }}
-                onClick={handleOpen}
+                onClick={() => setOpen(true)}
                 >
                 <CardContent>
                     <Typography variant="h6">{proj.name}</Typography>
@@ -37,7 +35,7 @@ function WorkCard({proj}) {
                 </CardContent>
             </Card>
 
-            <Modal open={open} onClose={handleClose}>
+            <Modal open={open} onClose={() => setOpen(false)}>
                 <Box sx={modalStyle}>
                     <Typography variant="h5">{proj.name}</Typography>
                     {proj.link ? 
@@ -78,6 +76,18 @@ function WorkCard({proj}) {
                     </Box>
                     <Box sx={{ marginTop: 1 }}>
                         <Typography variant="body">{proj.desc}</Typography>
+                    </Box>
+                    <Box sx={{ marginTop: 1 }}>
+                        <Typography variant="body">Users can:</Typography>
+                        <ul>
+                            {proj.userStories.map(story => <li key={story}>{story}</li>)}
+                        </ul>
+                    </Box>
+                    <Box>
+                        <Typography variant="body">Technologies:</Typography>
+                        <ul>
+                            {proj.tech.map(tech => <li key={tech}>{tech}</li>)}
+                        </ul>
                     </Box>
                 </Box>
             </Modal>
