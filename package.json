@@ -1,7 +1,7 @@
 {
   "name": "msnet-v3",
   "version": "0.1.0",
-  "homepage": "https://souzamartin.github.io/msnet-v3/",
+  "homepage": "https://souzamartin.github.io/msnet-v3/index.html",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
