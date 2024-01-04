@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/msnet-v3/index.html/static/js/main.e944fda1.js",
-    "static/media/calligraphy.gif": "/msnet-v3/index.html/static/media/calligraphy.ea6248515856ead551e2.gif",
-    "static/media/sword.gif": "/msnet-v3/index.html/static/media/sword.8b6c92e759ef16d1254e.gif",
-    "static/media/hobbies.gif": "/msnet-v3/index.html/static/media/hobbies.93944175349a8f1e5116.gif",
-    "static/media/banner.png": "/msnet-v3/index.html/static/media/banner.6185fcffdfc2e715a274.png",
-    "static/media/portrait.jpg": "/msnet-v3/index.html/static/media/portrait.019e6e14f4be13b9cf28.jpg",
-    "static/media/martinsouza_resume.pdf": "/msnet-v3/index.html/static/media/martinsouza_resume.903dbc806933df01f7a5.pdf",
-    "index.html": "/msnet-v3/index.html/index.html",
-    "main.e944fda1.js.map": "/msnet-v3/index.html/static/js/main.e944fda1.js.map"
+    "main.js": "/static/js/main.a9c77bf5.js",
+    "static/media/calligraphy.gif": "/static/media/calligraphy.ea6248515856ead551e2.gif",
+    "static/media/sword.gif": "/static/media/sword.8b6c92e759ef16d1254e.gif",
+    "static/media/hobbies.gif": "/static/media/hobbies.93944175349a8f1e5116.gif",
+    "static/media/banner.png": "/static/media/banner.6185fcffdfc2e715a274.png",
+    "static/media/portrait.jpg": "/static/media/portrait.019e6e14f4be13b9cf28.jpg",
+    "static/media/martinsouza_resume.pdf": "/static/media/martinsouza_resume.903dbc806933df01f7a5.pdf",
+    "index.html": "/index.html",
+    "main.a9c77bf5.js.map": "/static/js/main.a9c77bf5.js.map"
   },
   "entrypoints": [
-    "static/js/main.e944fda1.js"
+    "static/js/main.a9c77bf5.js"
   ]
 }
