@@ -1,3 +1,27 @@
+// {
+//     name: "PROJECTNAME",
+//     link: {
+//         url: "LIVEURL",
+//         label: "HOSTING"
+//     },
+//     demo: {
+//         url: "DEMOURL",
+//         label: "YouTube"
+//      },
+//     repo: "REPOURL",
+//     desc: "DESCRIPTION",
+//     userStories: [
+//         "USERSTORY1",
+//         "USERSTORY2",
+//         "USERSTORYn"
+//     ],
+//     tech: [
+//         "TECH1",
+//         "TECH2",
+//         "TECHn"
+//     ]
+// },
+
 const projectData = [
     {
         name: "Wordle Analog",
