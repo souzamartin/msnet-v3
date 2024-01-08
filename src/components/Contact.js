@@ -13,7 +13,11 @@ function Contact() {
         You can find me out and about online:
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2}}>
-        <Stack direction="row" spacing={2} divider={<Divider orientation="vertical" flexItem />}>
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={{ xs: 1.5, sm: 2}}
+          divider={<Divider orientation="vertical" flexItem />}
+        >
           <Button
             variant="text"
             color="inherit"
