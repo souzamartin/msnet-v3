@@ -10,6 +10,8 @@ function WorkCard({proj}) {
         left: '50%',
         transform: 'translate(-50%, -50%)',
         width: "75%",
+        maxHeight: "90%",
+        overflowY: "auto",
         bgcolor: 'background.paper',
         border: '2px solid #000',
         boxShadow: 24,
