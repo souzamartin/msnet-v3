@@ -24,6 +24,26 @@
 
 const projectData = [
     {
+        name: "Who Ya Gonna Call.org",
+        link: {
+            url: "https://whoyagonnacall.org/",
+            label: "Live Site"
+        },
+        demo: null,
+        repo: null,
+        desc: "DESCRIPTION",
+        userStories: [
+            "USERSTORY1",
+            "USERSTORY2",
+            "USERSTORYn"
+        ],
+        tech: [
+            "TECH1",
+            "TECH2",
+            "TECHn"
+        ]
+    },
+    {
         name: "Wordle Analog",
         link: {
             url: "https://maxnmcbride.github.io/wordleanalog/index.html",
