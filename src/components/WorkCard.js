@@ -65,6 +65,7 @@ function WorkCard({proj}) {
                         </Typography>
                     : null}
                     <Box>
+                    {proj.repo ?
                         <Typography variant="button">Repository: <Link
                                 href={proj.repo}
                                 target="_blank"
@@ -75,6 +76,7 @@ function WorkCard({proj}) {
                                 GitHub
                             </Link>
                         </Typography>
+                    : null}
                     </Box>
                     <Box sx={{ marginTop: 1 }}>
                         <Typography variant="body">{proj.desc}</Typography>

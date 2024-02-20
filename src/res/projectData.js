@@ -31,16 +31,15 @@ const projectData = [
         },
         demo: null,
         repo: null,
-        desc: "DESCRIPTION",
+        desc: "A central directory for Ghostbusters fan franchise groups, organized with approval of Ghost Corps.",
         userStories: [
-            "USERSTORY1",
-            "USERSTORY2",
-            "USERSTORYn"
+            "Find registered groups by region",
+            "View detailed group information",
+            "Filter groups by various parameters"
         ],
         tech: [
-            "TECH1",
-            "TECH2",
-            "TECHn"
+            "Backend: Python/Django REST API serving PostgreSQL relational database, containerized with Docker",
+            "Frontend: Responsive single-page application built with Next.js, React, TypeScript, and Chakra UI",
         ]
     },
     {
