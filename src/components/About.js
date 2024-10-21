@@ -1,17 +1,29 @@
 import { Container, Typography, Box, Link } from "@mui/material"
 import Image from "mui-image"
+import pola from "../img/pola.gif"
 import calligraphy from "../img/calligraphy.gif"
 import sword from "../img/sword.gif"
-import hobbies from "../img/hobbies.gif"
+import nycgb from "../img/nycgb.gif"
 
 function About() {
   return (
     <Container>
       <Typography variant="body">
-        My connection with computers is rooted in my early childhood, beginning with playing in HyperCard on a hand-me-down Mac Plus. Many years later, I set my mind to making a change of professional tack by learning to code. Intensive training at the Flatiron School laid the foundation of my technical skillset: I received a certification in full-stack software engineering using JavaScript, React, Ruby on Rails, and related tools and technologies.
-        <br/>
-        <br/>
-        As a software engineer, I bring to bear exacting precision and meticulous attention to detail honed by years of experience in professional roles calling for clear writing, careful editing, and effective communication in a variety of contexts. I sharpened those abilities while composing, proofreading, and editing everything from SEO copy to legal documents to game narrative materials. These transferable skills serve me well in working with computer language just as they have with human language.
+        My relationship with Polaroid photography began mere moments after my birth, when my father took the first pictures of me with his SX-70. Many years later, he gave me that very camera, long out of use and in need of repair. In the course of having it restored and beginning to learn how to us it, I connected with the instant photography community here in New York City and beyond, especially through my association with the <Link 
+          href="https://www.instantfilmsociety.org/" 
+          target="_blank"
+          rel="noopener"
+          variant="inherit" 
+          color="inherit"
+        >
+          Instant Film Society
+        </Link>.
+      </Typography>
+      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
+        <Image src={pola} />
+      </Box>
+      <Typography variant="body">
+        lalala
         <br/>
         <br/>
         My interest in words extends to the aesthetics of their form as well. I practice calligraphy, both in my own peculiar English hand, and in Chinese.
@@ -26,7 +38,7 @@ function About() {
         <Image src={sword} />
       </Box>
       <Typography variant="body">
-        I'm also a Polaroid photographer, and a member of the <Link 
+        I'm also a member of the board of directors of the <Link 
           href="https://nycghostbusters.com" 
           target="_blank"
           rel="noopener"
@@ -37,7 +49,7 @@ function About() {
         </Link>.
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
-        <Image src={hobbies} />
+        <Image src={nycgb} />
       </Box>
     </Container>
   )
