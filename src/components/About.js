@@ -9,7 +9,7 @@ function About() {
   return (
     <Container>
       <Typography variant="body">
-        My relationship with Polaroid photography began mere moments after my birth, when my father took the first pictures of me with his SX-70. Many years later, he gave me that very camera, long out of use and in need of repair. In the course of having it restored and beginning to learn how to us it, I connected with the instant photography community here in New York City and beyond, especially through my association with the <Link 
+        My relationship with Polaroid photography began mere moments after my birth, when my father took the very first pictures of me with his SX-70. Many years later, he gave me that same camera, long out of use and in need of repair. In the course of having it restored and beginning to learn how to us it, I connected with the instant photography community here in New York City and beyond, especially through my association with the <Link 
           href="https://www.instantfilmsociety.org/" 
           target="_blank"
           rel="noopener"
@@ -23,10 +23,16 @@ function About() {
         <Image src={pola} />
       </Box>
       <Typography variant="body">
-        lalala
+        Approaching Polaroid photography without preconceptions or preexisting habits from other kinds of art photography, I acquired specialized skills and niche knowledge related to Polaroid film and cameras, and cultivated the very peculiar and often intuitive aptitude required to use the medium effectively. I also developed an appreciation for the essential physicality of the integral film image as an object, each a unique and irreproducible artifact of the moment it was taken. In the process, I became very fond of the unpredictable effects and imperfections that frequently occur in Polaroid images as a result of photochemical defects, environmental conditions, and other happy accidents.
+        <br />
+        <br />
+        In my view, these qualities are the medium's strengths, and constitute precisely what appeals to people about this particular analog technology in our era of digital hyperreality. Polaroid's uniqueness, unpredictability, and imperfection are contraints that engender creativity, creating artistic opportunity and surprise.
+        {/* <br/>
+        <br/> */}
+        
         <br/>
         <br/>
-        My interest in words extends to the aesthetics of their form as well. I practice calligraphy, both in my own peculiar English hand, and in Chinese.
+        Most of my previous professional experience revolved in one way or another around writing and editing, and my longstanding interest in words extends to the aesthetics of their form. I practice calligraphy, usually in my own English hand, and sometimes in Chinese.
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
         <Image src={calligraphy} />
@@ -38,7 +44,7 @@ function About() {
         <Image src={sword} />
       </Box>
       <Typography variant="body">
-        I'm also a member of the board of directors of the <Link 
+        Besides my artistic pursuits, I'm also a member of the board of directors of the <Link 
           href="https://nycghostbusters.com" 
           target="_blank"
           rel="noopener"
