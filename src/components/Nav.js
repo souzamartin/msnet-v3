@@ -9,6 +9,7 @@ function Nav() {
                     <NavButton to="/" label="Main" />
                     <NavButton to="/about" label="About" />
                     <NavButton to="/work" label="Work" />
+                    <NavButton to="/services" label="Services" />
                     <NavButton to="/contact" label="Contact" />
                 </Stack>
             </Toolbar>
