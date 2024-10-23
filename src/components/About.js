@@ -23,16 +23,16 @@ function About() {
         <Image src={pola} />
       </Box>
       <Typography variant="body">
-        Approaching Polaroid photography without preconceptions or preexisting habits from other kinds of art photography, I acquired specialized skills and niche knowledge related to Polaroid film and cameras, and cultivated the very peculiar and often intuitive aptitude required to use the medium effectively. I also developed an appreciation for the essential physicality of the integral film image as an object, each a unique and irreproducible artifact of the moment it was taken. In the process, I became very fond of the unpredictable effects and imperfections that frequently occur in Polaroid images as a result of photochemical defects, environmental conditions, and other happy accidents.
+        Approaching Polaroid photography without preconceptions or preexisting habits from other kinds of photographic practice, I acquired specialized skills and niche knowledge related to Polaroid film and cameras, and cultivated the very peculiar and often intuitive aptitude required to use the medium effectively. I also developed an appreciation for the essential physicality of the integral film image as an object, each a unique and irreproducible artifact of the moment it was taken. In the process, I became very fond of the unpredictable effects and imperfections that frequently occur in Polaroid images as a result of photochemical defects, environmental conditions, and other happy accidents.
         <br />
         <br />
         In my view, these qualities are the medium's strengths, and constitute precisely what appeals to people about this particular analog technology in our era of digital hyperreality. Polaroid's uniqueness, unpredictability, and imperfection are contraints that engender creativity, creating artistic opportunity and surprise.
-        {/* <br/>
-        <br/> */}
-        
         <br/>
         <br/>
-        Most of my previous professional experience revolved in one way or another around writing and editing, and my longstanding interest in words extends to the aesthetics of their form. I practice calligraphy, usually in my own English hand, and sometimes in Chinese.
+        I established my professional Polaroid practice, <b>Polatronic Studio</b>, both to offer my servics as a specialist Polaroid photographer and to encourage and facilitate others' exploration and experimentation with the medium—regardless of other photographic or artistic experience.
+        <br/>
+        <br/>
+        Most of my previous professional occupations revolved in one way or another around writing and editing, and my longstanding interest in words extends to the aesthetics of their form. I practice calligraphy, usually in my own English hand, and sometimes in Chinese.
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
         <Image src={calligraphy} />
@@ -44,7 +44,7 @@ function About() {
         <Image src={sword} />
       </Box>
       <Typography variant="body">
-        Besides my artistic pursuits, I'm also a member of the board of directors of the <Link 
+        Besides my artistic pursuits, I'm also on the board of directors of the <Link 
           href="https://nycghostbusters.com" 
           target="_blank"
           rel="noopener"
@@ -52,7 +52,7 @@ function About() {
           color="inherit"
         >
           New York City Ghostbusters
-        </Link>.
+        </Link>, a volunteer-operated 501(c)(3) nonprofit that offers costumed event appearances and filming location tours to benefit local charitable causes.
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3, marginBottom: 3 }}>
         <Image src={nycgb} />
