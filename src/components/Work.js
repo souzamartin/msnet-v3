@@ -1,37 +1,31 @@
 import { Container, Box, Button, Typography, Stack } from "@mui/material"
-import FileDownloadIcon from "@mui/icons-material/FileDownload"
 import WorkCard from "./WorkCard"
-import martinsouza_resume from "../res/martinsouza_resume.pdf"
-import projectData from "../res/projectData"
 
 function Work() {
-  const renderedProjects = projectData.map(proj =>
-      <WorkCard key={proj.name} proj={proj} />
-  )
+  // const renderedProjects = projectData.map(proj =>
+  //     <WorkCard key={proj.name} proj={proj} />
+  // )
 
   return (
     <Container>
-      <Box sx={{ display: "flex", justifyContent: "center", marginBottom: 3 }}>
-        <Button
-          variant="contained"
-          size="large"
-          startIcon={<FileDownloadIcon />}
-          href={martinsouza_resume}
-          download
-          sx={{ backgroundColor: "primary.light" }}
-        >
-          Martin's résumé (PDF)
-        </Button>
-      </Box>
-
-      <Typography variant="h4" sx={{ marginBottom: 1 }}>Technical Projects</Typography>
-      <Stack
+      <Typography variant="h4" sx={{ marginTop: 2, marginBottom: 1 }}>Services</Typography>
+      <Typography variant="h5" sx={{ marginTop: 2, marginBottom: 1 }}>Professional Polaroid Photography</Typography>
+      <Typography variant="body">
+        Whether you want Polaroid photos to remember an event or special occasion, Polaroid portraits (of humans or animal companions), an artistic Polaroid shoot, or any other 
+      </Typography>
+      <Typography variant="h4" sx={{ marginTop: 2, marginBottom: 1 }}>Photography</Typography>
+      <Typography variant="body">
+        lalala
+      </Typography>
+      <Typography variant="h5" sx={{ marginTop: 2, marginBottom: 1 }}>Portraits</Typography>
+      <Typography variant="h5" sx={{ marginTop: 2, marginBottom: 1 }}>Pets</Typography>
+      {/* <Stack
         justifyContent="center"
         alignItems="center"
         spacing={2}
       >
         {renderedProjects}
-      </Stack>
+      </Stack> */}
     </Container>
   )
 }
