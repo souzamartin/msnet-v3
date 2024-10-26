@@ -13,6 +13,7 @@ function Work() {
       </Typography>
       <Typography variant="h5" sx={{ marginTop: 2 }}>Portraits</Typography>
       <Typography variant="h5" sx={{ marginTop: 2 }}>Pets</Typography>
+      <Typography variant="h5" sx={{ marginTop: 2 }}>Features & Awards</Typography>
       {/* <Stack
         justifyContent="center"
         alignItems="center"
