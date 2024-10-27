@@ -7,7 +7,6 @@ import banner from "./img/banner.png"
 import Nav from "./components/Nav"
 import Main from "./components/Main"
 import About from "./components/About"
-import Work from "./components/Work"
 import Services from "./components/Services"
 import Contact from "./components/Contact"
 import NotFound from "./components/NotFound"
@@ -40,7 +39,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />
-            <Route path="/work" element={<Work />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />

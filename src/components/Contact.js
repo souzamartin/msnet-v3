@@ -33,7 +33,7 @@ function Contact() {
   return (
     <Container>
       <Typography variant="body">
-        You can find me out and about online:
+        You can see my work out and about online:
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}>
         <Stack
@@ -69,7 +69,7 @@ function Contact() {
       </Box>
       <Box sx={{ marginTop: 3 }}>
         <Typography variant="body">
-          For professional inquiries, please contact me via e-mail:
+          For bookings or other professional inquiries, please contact me via e-mail:
         </Typography>
         <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}>
           {result ? 

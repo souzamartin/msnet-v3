@@ -22,7 +22,7 @@ function Services() {
           color="inherit"
         >
           Instant Film Society
-        </Link>, are intended for complete beginners or those curious about Polaroid photography. I'm also available to lead private group workshops and one-on-one lessons or practice sessions.
+        </Link>, are intended for complete beginners or those curious about Polaroid photography. I'm also available for private group workshops and one-on-one lessons or practice sessions.
         <br/>
         <br/>
         Regardless of your experience with photography generally or instant photography specifically, I'm delighted to provide guidance at any stage of your Polaroid journey.
@@ -30,7 +30,7 @@ function Services() {
 
       <Typography variant="h5" sx={{ marginTop: 2 }}>Vintage Camera Rental</Typography>
       <Typography variant="body">
-        I maintain a collection of vintage Polaroid 600 cameras to rent on a flexible basis. To offer the best balance of versatility, ease of use, and affordability, my personally tested rental cameras all feature Polaroid's sonar autofocus technology, originally seen on later SX-70 models. (See below for more information about these cameras.)
+        I maintain a collection of vintage Polaroid 600 cameras to rent on a flexible basis. To offer the best balance of versatility, ease of use, and affordability, my personally tested rental cameras all feature Polaroid's sonar autofocus technology. (See below for more information about these cameras.)
         <br/>
         <br/>
         If you'd like to rent a camera to shoot Polaroids at an event, I also offer event rental support packages, including film provision and onsite assistance to help you and your guests get the best results with your rented cameras.
