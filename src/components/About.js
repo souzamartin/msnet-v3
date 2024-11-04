@@ -26,7 +26,7 @@ function About() {
         Approaching Polaroid photography without preconceptions or preexisting habits from other kinds of photographic practice, I acquired specialized skills and niche knowledge related to Polaroid film and cameras, and cultivated the very peculiar and often intuitive aptitude required to use the medium effectively. I also developed an appreciation for the essential physicality of the integral film image as an object, each a unique and irreproducible artifact of the moment it was taken. In the process, I became very fond of the unpredictable effects and imperfections that frequently occur in Polaroid images as a result of photochemical defects, environmental conditions, and other happy accidents.
         <br />
         <br />
-        In my view, these qualities are the medium's strengths, and constitute precisely what appeals to people about this particular analog technology in our era of digital hyperreality. Polaroid's uniqueness, unpredictability, and imperfection are contraints that engender creativity, creating artistic opportunity and surprise.
+        In my view, these qualities are the medium's strengths, and constitute precisely what appeals to people about this particular analog technology in our era of digital hyperreality. Polaroid's uniqueness, unpredictability, and imperfection are constraints that engender creativity, creating artistic opportunity and surprise.
         <br/>
         <br/>
         I established my professional Polaroid practice, <b>Polatronic Studio</b>, both to offer my servics as a specialist Polaroid photographer and to encourage and facilitate others' exploration and experimentation with the medium—regardless of other photographic or artistic experience.
