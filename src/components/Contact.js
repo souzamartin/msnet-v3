@@ -58,7 +58,7 @@ function Contact() {
             color="inherit"
             size="large"
             startIcon={<CropOriginalSharpIcon />}
-            href="https://www.stayforaninstant.com/" 
+            href="https://www.stayforaninstant.com/ifm-contributor-portfolios/project-one-ephnc-4xxmy-yffxd" 
             target="_blank"
             rel="noopener"
             sx={{ backgroundColor: "primary.light" }}
