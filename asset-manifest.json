@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.89ae8637.js",
+    "main.js": "/static/js/main.5bc4559c.js",
     "static/media/calligraphy.gif": "/static/media/calligraphy.ea6248515856ead551e2.gif",
     "static/media/sword.gif": "/static/media/sword.8b6c92e759ef16d1254e.gif",
-    "static/media/hobbies.gif": "/static/media/hobbies.93944175349a8f1e5116.gif",
-    "static/media/banner.png": "/static/media/banner.6185fcffdfc2e715a274.png",
-    "static/media/portrait.jpg": "/static/media/portrait.019e6e14f4be13b9cf28.jpg",
-    "static/media/martinsouza_resume.pdf": "/static/media/martinsouza_resume.d5ea3450d5346690bd31.pdf",
+    "static/media/pola.gif": "/static/media/pola.59a46fd30c62913b0268.gif",
+    "static/media/nycgb.gif": "/static/media/nycgb.b270198d1817b7871879.gif",
+    "static/media/sun660.jpg": "/static/media/sun660.7628ff08cd0b6807d7b6.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.fab8c0f409e84465981f.jpg",
+    "static/media/banner.png": "/static/media/banner.f374ed6ad1f73a978faf.png",
     "index.html": "/index.html",
-    "main.89ae8637.js.map": "/static/js/main.89ae8637.js.map"
+    "main.5bc4559c.js.map": "/static/js/main.5bc4559c.js.map"
   },
   "entrypoints": [
-    "static/js/main.89ae8637.js"
+    "static/js/main.5bc4559c.js"
   ]
 }
