@@ -1,4 +1,4 @@
-import { Container, Typography, Stack, Box } from "@mui/material"
+import { Container, Typography, Stack, Box, Link } from "@mui/material"
 import Image from "mui-image"
 import portrait from "../img/portrait.jpg"
 
@@ -7,10 +7,21 @@ function Main() {
     <Container>
       <Stack direction={{ xs: "column", sm: "row"}} spacing={3}>
         <Typography variant="body">
-          Before my intensive training to build single-page applications using React and Rails, I had over 10 years of professional experience as a writer, editor, and communicator in academia, the legal profession, game development, and other fields. I value precision, efficiency, thoughtful design, and of course clean code. As a collaborative worker, I thrive when contributing my rigorous diligence and detail-focused attention as part of a close-knit team.
+          I became a Polaroid photographer when my father gave me his SX-70 in 2022. As an inquisitive beginner with no technical knowledge of photography, I approached the Polaroid medium on its own accessible and intuitive terms, and quickly came to love it for its immediacy, unpredictability, and imperfection. I'm committed to sharing knowledge and experience, and encouraging others to explore and experiment with instant photography, whatever their other artistic or photographic background may be.
           <br/>
           <br/>
-          I am currently working as a freelance software developer, and I look forward to speaking with you about your project.
+          In addition to my services as a specialist Polaroid photographer, I offer introductory instruction in the medium through my Polaroid 101 workshops and in private sessions. I also provide vintage Polaroid cameras for rental, including whatever level of guidance and support you need to use them.
+          <br/>
+          <br/>
+          I am also a contributor and the Editor at <Link
+              href="https://www.stayforaninstant.com/"
+              target="_blank"
+              rel="noopener"
+              variant="inherit" 
+              color="inherit"
+          >
+            <i>Stay For An Instant — The Instant Film Magazine</i>.
+          </Link>
         </Typography>
         <Box sx={{ minWidth: "40%" }}>
           <Image src={portrait} sx={{ borderStyle: "solid", borderWidth: 1 }} />
