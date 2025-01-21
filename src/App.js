@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import CssBaseline from "@mui/material/CssBaseline"
 import { ThemeProvider, createTheme } from "@mui/material/styles"
 import { Container, Divider } from "@mui/material"
@@ -33,7 +33,7 @@ function App() {
       <CssBaseline />
       <Container sx={{ paddingBottom: 10 }}>
         <Image src={banner} shift="bottom" />
-        <BrowserRouter>
+        <HashRouter>
           <Nav />
           <Divider sx={{ marginBottom: 2 }} />
           <Routes>
@@ -44,7 +44,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </Container>
     </ThemeProvider>
   )
