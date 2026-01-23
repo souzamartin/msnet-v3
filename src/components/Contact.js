@@ -1,7 +1,5 @@
 import { useState } from "react"
-import { Container, Typography, Box, Stack, Divider, Button, Input } from "@mui/material"
-import InstaIcon from '@mui/icons-material/Instagram'
-import CropOriginalSharpIcon from '@mui/icons-material/CropOriginalSharp'
+import { Container, Typography, Box, Button, Input } from "@mui/material"
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
 
 function Contact() {
@@ -32,41 +30,6 @@ function Contact() {
 
   return (
     <Container>
-      <Typography variant="body">
-        You can see my work out and about online:
-      </Typography>
-      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}>
-        <Stack
-          direction={{ xs: 'column', sm: 'row' }}
-          spacing={{ xs: 1.5, sm: 2}}
-          divider={<Divider orientation="vertical" flexItem />}
-        >
-          <Button
-            variant="text"
-            color="inherit"
-            size="large"
-            startIcon={<InstaIcon />}
-            href="https://www.instagram.com/polatronic_martin/"
-            target="_blank"
-            rel="noopener"
-            sx={{ backgroundColor: "primary.light" }}
-          >
-            Instagram
-          </Button>
-          <Button
-            variant="text"
-            color="inherit"
-            size="large"
-            startIcon={<CropOriginalSharpIcon />}
-            href="https://www.stayforaninstant.com/ifm-contributor-portfolios/project-one-ephnc-4xxmy-yffxd" 
-            target="_blank"
-            rel="noopener"
-            sx={{ backgroundColor: "primary.light" }}
-          >
-            The Instant Film Magazine
-          </Button>
-        </Stack>
-      </Box>
       <Box sx={{ marginTop: 3 }}>
         <Typography variant="body">
           For bookings or other professional inquiries, please contact me via e-mail:

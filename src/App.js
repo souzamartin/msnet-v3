@@ -7,7 +7,7 @@ import banner from "./img/banner.png"
 import Nav from "./components/Nav"
 import Main from "./components/Main"
 import About from "./components/About"
-import Services from "./components/Services"
+import Work from "./components/Work"
 import Contact from "./components/Contact"
 import NotFound from "./components/NotFound"
 import Footer from "./components/Footer"
@@ -39,7 +39,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
+            <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

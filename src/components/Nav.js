@@ -8,7 +8,7 @@ function Nav() {
                 <Stack direction="row" spacing={2}>
                     <NavButton to="/" label="Main" />
                     <NavButton to="/about" label="About" />
-                    <NavButton to="/services" label="Services" />
+                    <NavButton to="/work" label="Work" />
                     <NavButton to="/contact" label="Contact" />
                 </Stack>
             </Toolbar>

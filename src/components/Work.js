@@ -1,15 +1,83 @@
-import { Container, Typography, Link, Stack, Box } from "@mui/material"
+import { Container, Typography, Link, Stack, Divider, Box, Button } from "@mui/material"
+import InstaIcon from '@mui/icons-material/Instagram'
+import MagIcon from '@mui/icons-material/AutoStoriesOutlined'
+import GroupsIcon from '@mui/icons-material/Groups'
 import Image from "mui-image"
 import sun660 from "../img/sun660.jpg"
 
-function Services() {
+function Work() {
 
   return (
     <Container>
+      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}>
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={{ xs: 1.5, sm: 2}}
+          divider={<Divider orientation="vertical" flexItem />}
+        >
+          <Button
+            variant="text"
+            color="inherit"
+            size="large"
+            startIcon={<InstaIcon />}
+            href="https://www.instagram.com/polatronic_martin/"
+            target="_blank"
+            rel="noopener"
+            sx={{ backgroundColor: "primary.light" }}
+          >
+            @polatronic_martin
+          </Button>
+
+          <Button
+            variant="text"
+            color="inherit"
+            size="large"
+            startIcon={<InstaIcon />}
+            href="https://www.instagram.com/nycinstantphotowalk/"
+            target="_blank"
+            rel="noopener"
+            sx={{ backgroundColor: "primary.light" }}
+          >
+            @nycinstantphotowalk
+          </Button>
+
+          <Button
+            variant="text"
+            color="inherit"
+            size="large"
+            startIcon={<MagIcon />}
+            href="https://www.instantfilmmagazine.com/"
+            target="_blank"
+            rel="noopener"
+            sx={{ backgroundColor: "primary.light" }}
+          >
+            The Instant Film Magazine
+          </Button>
+
+          <Button
+            variant="text"
+            color="inherit"
+            size="large"
+            startIcon={<GroupsIcon />}
+            href="https://www.instantfilmsociety.org/"
+            target="_blank"
+            rel="noopener"
+            sx={{ backgroundColor: "primary.light" }}
+          >
+            Instant Film Society
+          </Button>
+        </Stack>
+      </Box>
+
       <Typography variant="h4" sx={{ marginTop: 2, marginBottom: 1 }}>Services</Typography>
       <Typography variant="h5" sx={{ marginTop: 2 }}>Professional Polaroid Photography</Typography>
       <Typography variant="body">
         Whether to commemorate a special occasion, produce unique portraits (of humans or animal companions), or for an artistic shoot, I'm available as a specialist Polaroid photographer for hire. Whatever application of the Polaroid medium you have in mind, I'll work with you to accommodate your specific needs and goals, and create one-of-a-kind images for you using vintage Polaroid cameras.
+      </Typography>
+
+      <Typography variant="h5" sx={{ marginTop: 2 }}>Consulting</Typography>
+      <Typography variant="body">
+        I am available as a consultant to any project or organization requiring deep knowledge of Polaroid photography, cameras, or history. This includes especially movie and television productions aiming to feature Polaroid cameras or pictures with technical and period accuracy.
       </Typography>
 
       <Typography variant="h5" sx={{ marginTop: 2 }}>Instruction</Typography>
@@ -25,7 +93,7 @@ function Services() {
         </Link>, are intended for complete beginners or those curious about Polaroid photography. I'm also available for private group workshops and one-on-one lessons or practice sessions.
         <br/>
         <br/>
-        Regardless of your experience with photography generally or instant photography specifically, I'm delighted to provide guidance at any stage of your Polaroid journey.
+        Regardless of your experience with photography generally or instant photography specifically, I'm delighted to provide guidance at any stage of your Polaroid exploration.
       </Typography>
 
       <Typography variant="h5" sx={{ marginTop: 2 }}>Vintage Camera Rental</Typography>
@@ -51,4 +119,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Work
